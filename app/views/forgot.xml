@@ -1,0 +1,14 @@
+<Alloy>
+	<Window id="login" class="container" title="Login">	
+		
+			<View id="navBar">
+				<Button id="leftButton" class="leftButton" onClick="cancel"></Button>
+				<Button id="rightButton" class="rightButton" onClick="send"></Button>
+			</View>
+		<ScrollView class="scrollview">
+			<Label id="lblForgotTitle">Forgot My Password</Label>
+			<View id="lblUserEmail" class="label"><Label class="lblUserEmail">USERNAME</Label></View>
+			<TextField id="userEmail" onReturn="send"/>
+		</ScrollView>
+	</Window>
+</Alloy>

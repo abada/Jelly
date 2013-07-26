@@ -1,0 +1,93 @@
+"#row": {
+	backgroundColor: "#fff",
+	height: 'auto',
+    className: 'itemRow',
+    hasChild: true
+} 
+
+"#image": {
+    height: '400dp',
+    left: '5dp',
+    right: '5dp',
+    top: '0dp',
+    touchEnabled: false
+}
+"#menuComment":{
+	left:'-260dp',
+	width:'300dp',
+	top:'70dp',
+	height:'50dp',
+	backgroundColor:'#000'
+}
+
+"#more":{
+	left:'10dp',
+	width:'60dp',
+	height:'40dp',
+	top:'10dp',
+	font: {
+        fontSize: '12dp',
+        color: '#FFFFFF'
+    }
+}
+"#comment":{
+	left:'70dp',
+	width:'60dp',
+	height:'40dp',
+	top:'10dp',
+	font: {
+        fontSize: '12dp',
+        color: '#FFFFFF'
+    }
+}
+"#jelly":{
+	left:'130dp',
+	width:'60dp',
+	height:'40dp',
+	top:'10dp',
+	font: {
+        fontSize: '12dp',
+        color: '#FFFFFF'
+    }
+}
+"#rating":{
+	left:'190dp',
+	width:'60dp',
+	height:'40dp',
+	top:'10dp',
+	font: {
+        fontSize: '12dp',
+        color: '#FFFFFF'
+    }
+}
+
+"#viewTitle":{
+	backgroundcolor:'#fff'
+}
+
+".title": {
+    font: {
+        fontSize: '16dp',
+        color: '#EF4144'
+    },
+    width: Ti.UI.FILL,
+    top:'5dp',
+    left: '10dp',
+    right: '3dp',
+    touchEnabled: false
+}
+
+"#.date": {
+    height: Ti.UI.SIZE,
+    width: '68dp',
+    left: '5dp',
+    bottom: '3dp',
+    color: '#444',
+    font: {
+        fontSize: '12dp'
+    },
+    textAlign: 'center',
+    touchEnabled: false
+}
+
+".refeed": {width: Ti.UI.FILL, background:"#747678", height:'70dp'}

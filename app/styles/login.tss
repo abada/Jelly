@@ -1,0 +1,71 @@
+"#lblTitulologin": {top:40,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	font: {
+		fontSize: 50,
+		fontWeight:'bold',
+		fontFamily:"BebasNeue"
+	},
+	 color:"#ed4243"
+}
+"TextField": {
+	width: '180dp',
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_LINE,
+	borderColor:'#BEBEBE',
+	height:'35dp'
+}
+".forgot": {
+	font:{fontSize:10,fontWeight:'normal', font:"BebasNeue"},
+	top: 250,
+	height: 12,
+	width: 111,
+	borderWidth: 0,
+	borderRadius: 0
+}
+"Button":{font:{fontSize:10,fontWeight:'normal', font:"BebasNeue"}}
+".leftButton":{
+		image: "/cancel.png",
+		borderRadius:0,
+		width: 63,
+		height: 25,
+		left:10,
+		title:''
+}
+".rightButton":{
+	image: "/done.png",
+		borderRadius:0,
+		width: 63,
+		height: 25,
+		right:10,
+		title:''
+}
+
+".container": {
+	backgroundImage: "/login/fondo.png",
+	navBarHidden: true,
+	barColor: "#D33B3C"
+}
+"#navBar":{top:0, height:50, width: Ti.UI.FILL, backgroundImage: "/login/top-login.png"}
+".scrollview":{top:50}
+
+".label":{left:20, font:{fontSize:10,fontWeight:'bold', font:"BebasNeue"}, color:"#fff", width:'80dp', height:'32dp', backgroundImage:'/login/label.png'}
+
+"#lblUsername": {top:160}
+".lblUsername": {left:10, font:{fontSize:10,fontWeight:'bold', fontFamily:"BebasNeue"}, color:"#fff", width:'80dp', height:'32dp'}
+"#lblPassword": {top:210}
+".lblPassword": {left:10, font:{fontSize:10,fontWeight:'bold', fontFamily:"BebasNeue"}, color:"#fff", width:'80dp', height:'32dp'}
+
+"#username": {
+	top: '160dp',
+	left:120,
+	hintText: 'username',
+	returnKeyType: Ti.UI.RETURNKEY_NEXT
+}
+
+"#password": {
+	top: '210dp',
+	left:120,
+	hintText: 'password',
+	passwordMask: true,
+	returnKeyType: Ti.UI.RETURNKEY_DONE
+}

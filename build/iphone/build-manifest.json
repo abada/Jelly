@@ -1,0 +1,23 @@
+{
+	"target": "simulator",
+	"deployType": "development",
+	"deviceFamily": "iphone",
+	"iosSdkPath": "/Users/patricioaguero/Library/Application Support/Titanium/mobilesdk/osx/3.1.0.GA/iphone",
+	"appGuid": "6b43f0e4-cbfc-4dac-8f58-bbdb0648874d",
+	"tiCoreHash": "77157e1ffaec640cf559356a147b6a4c",
+	"modulesHash": "c71edc45cdd3d842e835255e1a54f347",
+	"nativeModulesHash": "39dffd5c15df4f69b6fe63bc978e3b58",
+	"gitHash": "57634ef",
+	"name": "educore",
+	"id": "com.domo.jellyrate",
+	"analytics": false,
+	"publisher": "domo",
+	"url": "http://",
+	"version": "1.0",
+	"description": "not specified",
+	"copyright": "2013 Domo",
+	"guid": "6b43f0e4-cbfc-4dac-8f58-bbdb0648874d",
+	"skipJSMinification": true,
+	"forceCopy": false,
+	"forceCopyAll": false
+}

@@ -1,0 +1,27 @@
+<Alloy>
+	<Window id="signin" class="container" title="Basic Window">	
+		<ScrollView>
+			<Label class="lblSign">SIGN UP</Label>
+			<Button class="choose photo"></Button>
+			
+			<Label id="lblFullname">            FULLNAME</Label>
+			<TextField id="fullname"/>
+			
+			<Label id="lblEmail">            EMAIL</Label>
+			<TextField id="email"/>
+			
+			<Label id="lblUsername">            USERNAME</Label>
+			<TextField id="username"/>
+			
+			<Label id="lblPassword">            PASSWORD</Label>
+			<TextField id="password"/>
+			
+			<Label id="lblBirthday">            BIRTHDAY</Label>
+			<TextField id="birthday"/>
+			
+			<Label id="lblGender">            GENDER</Label>
+			<Button id="genderM" class="man-off"></Button>
+			<Button id="genderF" class="woman-off"></Button>
+		</ScrollView>
+	</Window>
+</Alloy>

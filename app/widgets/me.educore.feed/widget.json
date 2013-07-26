@@ -1,0 +1,16 @@
+{
+	"id": "me.educore.feed",
+	"name": "feed",
+	"description" : "RSS Feed Widget",
+	"author": "Joel Herron",
+	"version": "1.0",
+	"copyright":"Copyright (c) 2012",
+	"license":"Public Domain",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"utility,rss,feeds,xml",
+	"platforms":"android,ios,mobileweb",
+	"dependencies": {
+		"com.appcelerator.loading":"1.0"
+	}
+}

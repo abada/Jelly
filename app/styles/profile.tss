@@ -1,0 +1,51 @@
+
+".container": {
+	backgroundImage: "/login/fondo.png",
+	navBarHidden: false,
+	barColor: "#ff9900"
+}
+".header": {
+	top:0,
+    border:'1px',
+    height: '91dp',
+    width: Ti.UI.FILL,
+    textAlign: 'center',
+    backgroundImage: "/post/background_header2.png",
+    color: '#fff',
+    font: {
+        fontSize: '24dp',
+        fontWeight: 'bold'
+    }
+}
+"#profile": {
+	top:'10dp',
+	left:'10dp',
+	textAlign: 'center',
+	font: {
+        fontSize: '24dp',
+        fontWeight: 'bold'
+    }
+}
+"#back": {
+	top:'10dp',
+	left:'10dp',
+	image:"/general/back.gif",width:'50dp'
+}
+"#configuraciones": {
+	top:'10dp',
+	right:'20dp',
+	image:"/general/configuraciones.gif",width:'50dp'
+}
+".footer": {
+	top:'80dp',
+    border:'1px',
+    height: '91dp',
+    width: Ti.UI.FILL,
+    textAlign: 'center',
+    backgroundImage: "/general/footer.gif",
+    color: '#fff',
+    font: {
+        fontSize: '24dp',
+        fontWeight: 'bold'
+    }
+}

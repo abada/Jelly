@@ -1,0 +1,17 @@
+<Alloy>
+	<Window id="login" class="container" title="Login">	
+		
+			<View id="navBar">
+				<Button id="leftButton" class="leftButton" onClick="cancel"></Button>
+				<Button id="rightButton" class="rightButton" onClick="login"></Button>
+			</View>
+		<ScrollView class="scrollview">
+			<Label id="lblTitulologin">LOGIN</Label>
+			<View id="lblUsername" class="label"><Label class="lblUsername">USERNAME</Label></View>
+			<TextField id="username" onReturn="focusPassword"/>
+			<View id="lblPassword" class="label"><Label class="lblPassword">PASSWORD</Label></View>
+			<TextField id="password" onReturn="login"/>
+			<Button onClick="cancel" class="forgot" onClick ="forgotPassword">I forgot my password</Button>
+		</ScrollView>
+	</Window>
+</Alloy>

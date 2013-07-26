@@ -1,0 +1,10 @@
+".container": {
+	backgroundImage: "/login/fondo.png"
+}
+".top":{image:"/login/top.png",top:0,width:320}
+".logo":{image:"/login/logo.png",top:50,width:250}
+".loginFacebook":{image:"/login/login-facebook.png",left:20,top:150,width:130,height:130}
+".loginTwitter":{image:"/login/login-twitter.png",right:20,top:150,width:130,height:130}
+".loginInstagram":{image:"/login/login-instagram.png",left:20,top:300,width:130,height:130}
+".loginJelly":{image:"/login/login.png",right:20,top:370,width:130,height:60}
+".signupJelly":{image:"/login/signup-with-username.png",right:20,top:300,width:130,height:60}

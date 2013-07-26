@@ -1,0 +1,13 @@
+<Alloy>
+	<Window id="comment" class="container">		
+		<TableView id="table">
+		</TableView>
+		
+		<View class="comments">
+			<TextField id="commentText"></TextField>
+			<Button id="sendButton">Send</Button>
+		</View>
+	
+	</Window>
+	
+</Alloy>

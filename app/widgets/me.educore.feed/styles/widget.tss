@@ -1,0 +1,8 @@
+'#load': {
+	opacity: 0,
+	right: "8dp",
+	top: "8dp",
+	height: "34dp",
+	width: "34dp",
+	touchEnabled: false
+}

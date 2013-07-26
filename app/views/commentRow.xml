@@ -1,0 +1,8 @@
+<Alloy>
+  <TableViewRow>
+		<Label id="comment" class="comment"/>
+		<ImageView id="image"/>
+		<Label id="date" class="date"/>
+		<Label id="rating" class="rating"></Label>
+	</TableViewRow>
+</Alloy>

@@ -1,0 +1,1 @@
+/Users/Shared/App/jellyrate/Resources/alloy/models/User.js

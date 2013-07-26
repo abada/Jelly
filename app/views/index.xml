@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="index" class="container home">
+		<View id="dashboard"/>
+	</Window>
+</Alloy>

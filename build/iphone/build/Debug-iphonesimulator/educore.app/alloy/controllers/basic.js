@@ -1,0 +1,1 @@
+/Users/Shared/App/jellyrate/Resources/alloy/controllers/basic.js

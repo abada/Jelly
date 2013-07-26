@@ -1,0 +1,13 @@
+".container": {
+	backgroundColor:"white"
+},
+".home": {
+	navBarHidden: true,
+	exitOnClose: true
+},
+"#dashboard": {
+	top: 0,
+	bottom: 0,
+	layout: 'horizontal',
+	borderRadius: 0
+}

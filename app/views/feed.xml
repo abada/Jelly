@@ -1,0 +1,12 @@
+<Alloy>
+	<Window id="feed" class="container">
+		<View class="header">
+			<ImageView id="logo"></ImageView>
+			<Label id="comment">4</Label>
+			<Label id="friend" onClick="cargaProfile">>XXX</Label>
+		</View>
+		<TableView id="table">
+		</TableView>
+	</Window>
+	
+</Alloy>

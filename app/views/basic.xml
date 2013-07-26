@@ -1,0 +1,5 @@
+<Alloy>
+	<Window id="index" class="container" title="Basic Window">	
+			<Label onClick="clickWin">I'm a Basic Window</Label>
+	</Window>
+</Alloy>

@@ -1,0 +1,15 @@
+<Alloy>
+  <TableViewRow>
+		<Label id="title" class="title"/>
+		<ImageView id="image"/>
+		<Label id="date" class="date"/>
+		<View id="menuComment" onSwipe="swipeMenu">
+			<Button id="more">...</Button>
+			<Button id="comment"></Button>
+			<Button id="rate"></Button>
+			<Button id="jelly"></Button>
+			<Label id="rating" class="rating" onClick="comment"></Label>
+		</View>
+		<View class="refeed"></View>
+	</TableViewRow>
+</Alloy>

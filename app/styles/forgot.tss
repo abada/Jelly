@@ -1,0 +1,58 @@
+
+"TextField": {
+	width: '180dp',
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_LINE,
+	borderColor:'#BEBEBE',
+	height:'35dp'
+}
+
+"Button":{font:{fontSize:10,fontWeight:'normal', font:"BebasNeue"}}
+".leftButton":{
+		image: "/cancel.png",
+		borderRadius:0,
+		width: 63,
+		height: 25,
+		left:10,
+		title:''
+}
+".rightButton":{
+	image: "/done.png",
+		borderRadius:0,
+		width: 63,
+		height: 25,
+		right:10,
+		title:''
+}
+
+".container": {
+	backgroundImage: "/login/fondo.png",
+	navBarHidden: true,
+	barColor: "#D33B3C"
+}
+"#navBar":{top:0, height:50, width: Ti.UI.FILL, backgroundImage: "/login/top-login.png"}
+".scrollview":{top:50}
+
+".label":{left:20, font:{fontSize:10,fontWeight:'bold', font:"Bebas Neue"}, color:"#fff", width:'80dp', height:'32dp', backgroundImage:'/login/label.png'}
+
+"#lblUserEmail": {top:160}
+".lblUserEmail": {left:10, font:{fontSize:10,fontWeight:'bold', font:"Arial"}, color:"#fff", width:'80dp', height:'32dp'}
+
+"#userEmail": {
+	top: '160dp',
+	left:120,
+	hintText: 'userEmail',
+	returnKeyType: Ti.UI.RETURNKEY_NEXT
+}
+
+
+"#lblForgotTitle": {top:40,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	font: {
+		fontSize: 50,
+		fontWeight:'bold',
+		fontFamily:"BebasNeue"
+	},
+	 color:"#ed4243"
+}
+

@@ -1,0 +1,38 @@
+".lblSign":{font: { fontSize:46, font: "Arial Black" }, top:10,color:'#ED4243',width:200}
+
+"TextField": {
+	width: '180dp',
+	height:38,
+	font: { fontSize:14, font: "Arial Black"},
+	autocapitalization: Ti.UI.TEXT_AUTOCAPITALIZATION_NONE,
+	borderStyle: Ti.UI.INPUT_BORDERSTYLE_LINE,
+	borderColor:"#BEBEBE"
+}
+
+".choose": {
+	backgroundImage: "/login/choose-photo.png",top:60,width:90,height:90
+},
+
+"#lblFullname":{font: { fontSize:10, font: "Arial Black"}, top:170,left:20,color:'#fff',backgroundImage:'/login/label.png',width:90,height:38}
+"#lblEmail":{font: { fontSize:10, font: "Arial Black" }, top:210,left:20,color:'#fff',backgroundImage:'/login/label.png',width:90,height:38}
+"#lblUsername":{font: { fontSize:10, font: "Arial Black" }, top:250,left:20,color:'#fff',backgroundImage:'/login/label.png',width:90,height:38}
+"#lblPassword":{font: { fontSize:10, font: "Arial Black" }, top:290,left:20,color:'#fff',backgroundImage:'/login/label.png',width:90,height:38}
+"#lblBirthday":{font: { fontSize:10, font: "Arial Black" }, top:330,left:20,color:'#fff',backgroundImage:'/login/label.png',width:90,height:38}
+
+"#lblGender":{font: { fontSize:10, font: "Arial Black" }, top:330,left:160,color:'#fff',backgroundImage:'/login/label.png',width:90,height:38}
+
+
+"#fullname": { top: '170dp', right:20, hintText: 'username', returnKeyType: Ti.UI.RETURNKEY_NEXT}
+"#email": { top: '210dp', right:20, hintText: 'email', passwordMask: true, returnKeyType: Ti.UI.RETURNKEY_DONE}
+"#username": { top: '250dp', right:20, hintText: 'username', passwordMask: true, returnKeyType: Ti.UI.RETURNKEY_DONE}
+"#password": { top: '290dp', right:20, hintText: 'password', passwordMask: true, returnKeyType: Ti.UI.RETURNKEY_DONE}
+"#birthday": { top: '330dp', right:20, width: '60dp', hintText: '00/00/0000', returnKeyType: Ti.UI.RETURNKEY_DONE}
+"#gender": { top: '330dp', left:120, style:Titanium.UI.iPhone.SystemButtonStyle.BAR}
+
+".man-off": { top: '330dp', left:210, backgroundImage:'/login/man-off.gif',width:12,height:35}
+".woman-off": { top: '330dp', left:240, backgroundImage:'/login/woman-off.gif',width:15,height:35}
+
+".man-on": { top: '330dp', left:210, backgroundImage:'/login/man-on.gif',width:12,height:35}
+".woman-on": { top: '330dp', left:240, backgroundImage:'/login/woman-on.gif',width:15,height:35}
+
+

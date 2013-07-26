@@ -1,0 +1,21 @@
+<Alloy>
+	<Window id="profile" class="container" >
+		<ScrollView>
+			<View class="header">
+			<ImageView id="back"></ImageView>
+			<Label id="profile">PROFILE</Label>
+			<ImageView id="configuraciones"></ImageView>
+		    </View>
+		    <View class="datosUser">
+		
+		    </View>
+		    <View class="listaJelly">
+		    </View>
+		    <View class="footer">
+		    	<ImageView id="ALGO"></ImageView>
+		    	<ImageView id="JR"></ImageView>
+		    	<ImageView id="search"></ImageView>
+		    </View>
+		<ScrollView>
+	</Window>
+</Alloy>

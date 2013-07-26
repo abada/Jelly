@@ -1,0 +1,1 @@
+/Users/Shared/App/jellyrate/Resources/alloy/widgets/me.educore.feed/controllers/widget.js

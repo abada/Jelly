@@ -1,0 +1,10 @@
+<Alloy>
+	<Window id="home" class="container" title="Basic Window">	
+		<ImageView class="logo"></ImageView>
+		<Button class="loginFacebook" onClick="loginFacebook"></Button>
+		<Button class="loginTwitter" onClick="loginTwitter"></Button>
+		<Button class="loginInstagram" onClick="loginInstagram"></Button>
+		<Button class="loginJelly" onClick="loginJelly"></Button>
+		<Button class="signupJelly" onClick="signupJelly"></Button>
+	</Window>
+</Alloy>

@@ -1,0 +1,34 @@
+".container": {
+	backgroundImage: "/login/fondo.png",
+	navBarHidden: false,
+	barColor: "#ff9900"
+}
+
+".header": {
+	top:0,
+    border:'1px',
+    height: '91dp',
+    width: Ti.UI.FILL,
+    textAlign: 'center',
+    backgroundImage: "/post/background_header.gif.png",
+    color: '#fff',
+    font: {
+        fontSize: '24dp',
+        fontWeight: 'bold'
+    }
+}
+
+"#_logo": {
+	top:'10dp',
+	left:'10dp',
+	image:"/post/logo2.gif",width:'150dp'
+}
+"#_comment": {
+	top:'20dp',right:'70dp',
+	backgroundImage:"/post/comment2.gif",width:'30dp'
+}
+"#_friend": {
+	top:'20dp',right:'20dp',
+	backgroundImage:"/post/friend2.gif",width:'30dp'
+}
+"#table": {top:'95dp',}

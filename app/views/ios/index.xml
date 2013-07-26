@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="index" class="container">
+		<NavigationGroup id="navgroup" platform="ios">
+			<Window title="home" class="home">
+				<View id="dashboard"/>
+			</Window>
+		</NavigationGroup>
+	</Window>
+</Alloy>

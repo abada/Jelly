@@ -1,0 +1,19 @@
+".container": {
+	backgroundColor: "white"
+}
+
+".comments": {
+	bottom:'40dp',
+    border:'1px',
+    height: '39dp',
+    width: Ti.UI.FILL,
+    textAlign: 'center',
+    color: '#fff',
+    font: {
+        fontSize: '24dp',
+        fontWeight: 'bold'
+    }
+}
+"#commentText":{top:0, left:5, right:90}
+"#sendButton":{top:0, width:80, right:10}
+"#table": {top:0,bottom:'42dp'}
